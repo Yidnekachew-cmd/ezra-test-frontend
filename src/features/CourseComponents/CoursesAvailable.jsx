@@ -74,6 +74,10 @@ function CoursesAvailable() {
                 className="flex flex-col justify-center items-start  border-accent-5 border-2 w-[100%] md:w-[23.7%] shadow-xl rounded-3xl md:rounded-xl h-auto pb-6 "
               >
                 <img
+                  // src={
+                  //   `http://localhost:5100/images/` +
+                  //   course.image
+                  // }
                   src={
                     `https://ezra-seminary-api.onrender.com/images/` +
                     course.image
